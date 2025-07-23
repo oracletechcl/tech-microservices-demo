@@ -23,23 +23,11 @@ Password: Welcome1.
 # Connection commands for different services:
 
 # For login-ms
-mysql -h 10.0.0.12 -u admin -p 'Welcome1.' usuarios
+mysql -h 10.0.0.12 -u admin -p 
 
-# For pagar-ms
-mysql -h 10.0.0.12 -u admin -p 'Welcome1.' pagos
+Pass 'Welcome1.'
 
-# For cotizar-ms
-mysql -h 10.0.0.12 -u admin -p 'Welcome1.' cotizar_ms
 
-# Note: All services connect to the same MySQL instance with the same credentials.
-# The only difference is the database name used by each service.
-```
-
-# For movimientos-ms
-mysql -h 10.0.0.12 -u admin -p 'Welcome1.' movimientos
-
-# For cc-movimientos-ms
-mysql -h 10.0.0.12 -u admin -p 'Welcome1.' cc_movimientos
 ```
 
 ### Important Notes about Database Connection
