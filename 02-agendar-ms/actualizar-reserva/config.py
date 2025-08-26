@@ -1,4 +1,4 @@
-DATABASE_IP = "10.0.0.12"
+DATABASE_IP = "10.0.10.126"
 DATABASE_PORT = "3306"
 USER = "admin"
 PASSWORD = "Welcome1."
