@@ -15,7 +15,7 @@
 
 ### MySQL Database Connection (Common for all services)
 ```bash
-Host: 10.0.0.12
+Host: 10.0.10.126
 Port: 3306
 Username: admin
 Password: Welcome1.
@@ -23,7 +23,7 @@ Password: Welcome1.
 # Connection commands for different services:
 
 # For login-ms
-mysql -h 10.0.0.12 -u admin -p 
+mysql -h 10.0.10.126 -u admin -p 
 
 Pass 'Welcome1.'
 
@@ -31,7 +31,7 @@ Pass 'Welcome1.'
 ```
 
 ### Important Notes about Database Connection
-1. All microservices connect to a single MySQL instance at 10.0.0.12
+1. All microservices connect to a single MySQL instance at 10.0.10.126
 2. The common credentials are:
    - Username: admin
    - Password: Welcome1.
